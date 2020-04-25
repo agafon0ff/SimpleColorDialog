@@ -25,8 +25,8 @@ ColorDialog::ColorDialog(QWidget *parent) : QDialog(parent),
     m_currentColor("#f00")
 {
     resize(360,380);
-    setWindowTitle("Выбор цвета");
-    setWhatsThis("Нажмите на цвет для выбора");
+    setWindowTitle("Color selection");
+    setWhatsThis("Click on color to select");
 
     int lSize = colorsList.size();
     for(int i=0;i<lSize;++i)
