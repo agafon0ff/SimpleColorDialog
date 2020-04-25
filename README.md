@@ -5,5 +5,5 @@ Example:
 ```c++
 ColorDialog colorDialog;
 if(colorDialog.exec() == QDialog::Accepted)
-    qDebug()<<colorDialog.getColor(); //"#070"
+    qDebug() << colorDialog.getColor(); //"#070"
 ```
