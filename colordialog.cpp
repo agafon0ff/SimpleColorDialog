@@ -37,6 +37,7 @@ ColorDialog::ColorDialog(QWidget *parent) : QDialog(parent),
     }
 
     setMouseTracking(true);
+    setStyleSheet("background: #777;");
 }
 
 void ColorDialog::paintEvent(QPaintEvent *)
